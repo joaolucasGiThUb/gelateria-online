@@ -1,0 +1,29 @@
+footer {
+  background-color: black;
+}
+
+.container-logo-informacoes {
+  display: flex;
+  color: white;
+  padding: 100px 20px;
+  justify-content: space-between;
+}
+
+.container-logo-informacoes img {
+  width: auto;
+  height: 100px;
+}
+
+.container-logo-informacoes div {
+  width: 20%;
+}
+
+.container-logo-informacoes p {
+  font-size: 16px;
+}
+
+.direito-autoral {
+  color: white;
+  text-align: center;
+  padding: 20px 20px;
+}
