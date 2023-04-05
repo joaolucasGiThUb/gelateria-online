@@ -18,6 +18,10 @@ header img {
   height: 60px;
 }
 
+header img:hover {
+  transform: scale(2.1);
+}
+
 header nav {
   width: 300px;
   height: 40px;
@@ -26,9 +30,27 @@ header nav {
   justify-content: space-between;
 }
 
+.link-topo:hover {
+  transform: scale(1.1);
+  color: rgba(255, 68, 0, 0.613);
+}
+
 .link-topo {
   font-size: 18px;
   font-weight: 600;
   color: black;
   text-decoration: none;
+}
+
+@media screen and (max-width: 662px) {
+  header div {
+    flex-direction: column;
+  }
+
+  header nav {
+    border-top: 1px solid gray;
+    width: 90%;
+    justify-content: space-around;
+    padding-top: 10px;
+  }
 }
