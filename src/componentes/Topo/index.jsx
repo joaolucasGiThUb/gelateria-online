@@ -6,7 +6,8 @@ export default function Topo() {
     return (
         <header>
             <div className="limitar-secao">
-                <img src="assets/logo.png" alt="LogoMarca" />
+
+                <Link to='/' > <img src="assets/logo.png" alt="LogoMarca" /></Link>
 
                 <nav>
                     <Link className="link-topo" to='/'>Home</Link>
